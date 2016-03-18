@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-    s.name         = 'RSAEncrypt'
+    s.name         = 'RSAEncryptor'
     s.version      = '0.0.1'
     s.summary      = 'RSA encrypt/decrypt with Both the content of certificates and certificates'
     s.homepage     = 'https://github.com/qianhongqiang/RSAEncryptor'
