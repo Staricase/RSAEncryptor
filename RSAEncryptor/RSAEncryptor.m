@@ -16,7 +16,9 @@
 #pragma mark - certificate part
 - (void)dealloc{
     CFRelease(publicKey);
-    CFRelease(privateKey);
+    if (privateKey) {
+        CFRelease(privateKey);
+    }
 }
 - (SecKeyRef)getPublicKey {
     return publicKey;
